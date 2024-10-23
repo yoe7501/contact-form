@@ -1,0 +1,25 @@
+
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    @apply bg-green200;
+}
+
+
+
+
+
+.radio {
+    @apply ring-1  ring-grey500 focus:ring-green600 appearance-none checked:bg-blue-500 hover:ring-green600 rounded-md mr-3 h-8 basis-1/2 p-1 ;
+  }
+
+
+.text {
+    @apply rounded-sm mr-3 h-8 ring-1   hover:ring-green600 focus:ring-green600
+  }
+
+
