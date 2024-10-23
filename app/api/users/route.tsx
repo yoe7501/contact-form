@@ -9,7 +9,7 @@ interface Submission {
     consent: boolean; // Assuming consent is a boolean
   }
 
-let submission: Submission[] = [];
+const submission: Submission[] = [];
 
 export async function GET(request: NextRequest) {
     return NextResponse.json(submission);
