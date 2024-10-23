@@ -11,7 +11,7 @@ interface Submission {
 
 const submission: Submission[] = [];
 
-export async function GET(request: NextRequest) {
+export async function GET() {
     return NextResponse.json(submission);
 }
 
